@@ -1,0 +1,24 @@
+pkg install git -y
+pkg install python -y
+pkg install python2 -y
+pkg install php -y
+pkg install bash -y
+pkg install nano -y
+pkg install wget -y
+pip install mechanize
+pip2 install mechanize
+pip install requests
+pip2 install requests
+
+apt update && apt upgrade
+pkg install nano
+pkg install python2
+pkg install git
+pip2 install mechanize
+pip2 install requests
+git clone https://github.com/storiku/fbtarget
+
+cd fbtarget
+
+nano pass.txt
+
